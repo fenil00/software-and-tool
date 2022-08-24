@@ -3,21 +3,29 @@
 
 ## ZSH Terminal
 
-* Check Version  (`zsh --version`) -> Answer is (`zsh 5.8.1 (x86_64-apple-darwin21.0)`)
+* Check Version  (`zsh --version`) -> (`zsh 5.8.1 (x86_64-apple-darwin21.0)`)
 * All packages installed by Installer (`pkgutil --pkgs`)
 * Identify where shell is installed (`which zsh`) -> Answer should be (`/bin/zsh`)
 * Find out which shell i am using (`dscl . -read /Users/<username> UserShell`) -> Answer should be (`UserShell: /bin/zsh`)
+* Help (`zsh --help`)
 
 ## Homebrew
 
 All Commands to be typed in ZSH shell 
 
+Homebrew requires the Xcode command-line tools from Apple's Xcode.
+
+* Install the Xcode command-line tools by running the following command in your macOS Terminal:
+```sh
+xcode-select --install
+```
+* Xcode version (`xcode-select --version`) -> (`xcode-select version 2395.`)
+
+* Help (`brew --help`)
 * Check Version  (`brew --version`)
 * All packages installed by Installer (`brew list`)
 * Update to latest version of Homebrew (`brew update`)
 * Update all the packages installed by Homebrew (`brew upgrade`)
 
-```sh
-zsh --version 
-```
+
 
