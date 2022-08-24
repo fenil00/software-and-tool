@@ -3,7 +3,7 @@
 
 ## ZSH Terminal
 
-1. Check Version  (`zsh --version`)
+* Check Version  (`zsh --version`)
 
 
 ```sh
