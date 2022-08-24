@@ -4,15 +4,15 @@
 ## ZSH Terminal
 
 * Check Version  (`zsh --version`)
+* All packages installed by Installer (`pkgutil --pkgs`)
+
+## HomeBrew
+
+* Check Version  (`brew --version`)
+* All packages installed by Installer (`brew list`)
 
 
 ```sh
 zsh --version 
-```
-
-List all installed packages :
-
-```sh
-pkgutil --pkgs
 ```
 
