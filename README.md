@@ -3,6 +3,9 @@
 
 ## ZSH Terminal
 
+* My personalized ZSH, make ".zshrc" file (if does not exists) in home directory then put as following
+> PROMPT="%F{magenta}%n%f%F{yellow}@%m%f %B%F{green}%1~%f%b %F{magenta}$%f "
+
 * Check Version  (`zsh --version`) -> (`zsh 5.8.1 (x86_64-apple-darwin21.0)`)
 * All packages installed by Installer (`pkgutil --pkgs`)
 * Identify where shell is installed (`which zsh`) -> Answer should be (`/bin/zsh`)
