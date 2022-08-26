@@ -36,7 +36,7 @@ xcode-select --install
 * NPM is included with Node. js installation
   ## npm (Node Package Manager) ##
   * packages to install project wise in project folder only
-  * install package (`npm install <package-name> `)
+  * install package (`npm i <package-name> `)
 
 
 # MongoDb #
