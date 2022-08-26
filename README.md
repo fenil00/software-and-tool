@@ -32,5 +32,6 @@ xcode-select --install
 
 ## Node 
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
+* Execute .js file from node (`node <filenName.js>`) from correct path
 
 ## MongoDb
