@@ -30,8 +30,14 @@ xcode-select --install
 * Update to latest version of Homebrew (`brew update`)
 * Update all the packages installed by Homebrew (`brew upgrade`)
 
-## Node 
+## Node.js
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
 * Execute .js file from node (`node <filenName.js>`) from correct path
+* To export something from .js file 
+```
+const PI = 3.14159;
+
+module.exports.PI = PI;
+```
 
 ## MongoDb
