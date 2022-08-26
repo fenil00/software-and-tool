@@ -30,10 +30,13 @@ xcode-select --install
 * Update to latest version of Homebrew (`brew update`)
 * Update all the packages installed by Homebrew (`brew upgrade`)
 
-## Node.js
+# Node.js #
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
 * Execute .js file from node (`node <filenName.js>`) from correct path
-  ## npm ##
+* NPM is included with Node. js installation
+  ## npm (Node Package Manager) ##
+  * packages to install project wise in project folder only
+  * install package (`npm install <package-name> `)
 
 
 # MongoDb #
