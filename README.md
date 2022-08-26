@@ -17,6 +17,7 @@
 * Identify where shell is installed (`which zsh`) -> Answer should be (`/bin/zsh`)
 * Find out which shell i am using (`dscl . -read /Users/<username> UserShell`) -> Answer should be (`UserShell: /bin/zsh`)
 * Help (`zsh --help`)
+* use Homebrew to install any Third party software without installer. 
 
 # Homebrew #
 
