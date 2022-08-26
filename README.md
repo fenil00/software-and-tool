@@ -2,8 +2,9 @@
 > List of my Softwares and Tools as well commands, How to install, update and upgrade them 
 
 # MacBook Air with M1 #
-* (Windows) `%HOME%\AppData\user` = (M1) `/opt` = (Ubentu etc.) `/user/local`
-*<img width="626" alt="image" src="https://user-images.githubusercontent.com/67994954/186946378-ff92d889-b891-4b18-9141-5e36dc102f51.png">
+* (Windows) `%HOME%\AppData\user` = (M1) `/opt` = (Ubentu etc.) `/user/local/*`
+* Program Files (x86) = Applications
+<img width="626" alt="image" src="https://user-images.githubusercontent.com/67994954/186946378-ff92d889-b891-4b18-9141-5e36dc102f51.png">
 
 
 # ZSH Terminal #
