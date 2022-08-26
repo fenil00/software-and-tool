@@ -1,7 +1,7 @@
 # software-and-tool
 > List of my Softwares and Tools as well commands, How to install, update and upgrade them 
 
-## ZSH Terminal
+# ZSH Terminal #
 
 * My personalized ZSH, make ".zshrc" file (if does not exists) in home directory then put as following
 > PROMPT="%F{magenta}%n%f%F{yellow}@%m%f %B%F{green}%1~%f%b %F{magenta}$%f "
@@ -12,7 +12,7 @@
 * Find out which shell i am using (`dscl . -read /Users/<username> UserShell`) -> Answer should be (`UserShell: /bin/zsh`)
 * Help (`zsh --help`)
 
-## Homebrew
+# Homebrew #
 
 All Commands to be typed in ZSH shell 
 
@@ -33,11 +33,10 @@ xcode-select --install
 ## Node.js
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
 * Execute .js file from node (`node <filenName.js>`) from correct path
-* To export something from .js file 
-```
-const PI = 3.14159;
 
-module.exports.PI = PI;
-```
+## npm ##
 
-## MongoDb
+
+# MongoDb #
+
+
