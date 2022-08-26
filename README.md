@@ -31,5 +31,6 @@ xcode-select --install
 * Update all the packages installed by Homebrew (`brew upgrade`)
 
 ## Node 
+* Start node in ZSH  (`node`)
 
 ## MongoDb
