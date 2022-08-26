@@ -1,6 +1,11 @@
 # software-and-tool
 > List of my Softwares and Tools as well commands, How to install, update and upgrade them 
 
+# MacBook Air with M1 #
+* (Windows) `%HOME%\AppData\user` = (M1) `/opt` = (Ubentu etc.) `/user/local`
+*<img width="626" alt="image" src="https://user-images.githubusercontent.com/67994954/186946378-ff92d889-b891-4b18-9141-5e36dc102f51.png">
+
+
 # ZSH Terminal #
 
 * My personalized ZSH, make ".zshrc" file (if does not exists) in home directory then put as following
@@ -35,7 +40,7 @@ xcode-select --install
 * Execute .js file from node (`node <filenName.js>`) from correct path
 * NPM is included with Node. js installation
   ## npm (Node Package Manager) ##
-  * packages to install project wise in project folder only
+  * Packages should be install project wise in project folder only
   * install package (`npm i <package-name> `)
 
 
