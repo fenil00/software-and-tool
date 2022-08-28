@@ -53,6 +53,7 @@ xcode-select --install
   ## Express (Framework for Node.js) ##
   * `npm i express` install express 
   * require (`const express = require("express")`) and execute (`const app = express()`)
+  * `app.use()` will run on every incoming request to server. (get, post, put..all of them)
   
  
 
