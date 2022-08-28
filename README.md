@@ -51,11 +51,14 @@ xcode-select --install
   * install package (`npm i <package-name> `)
 
   ## Express (Framework for Node.js) ##
+  * To create server 
   * `npm i express` install express 
   * require (`const express = require("express")`) and execute (`const app = express()`)
-  * `app.use()` will run on every incoming request to server. (get, post, put..all of them)
+  * `app.use()` will run on every incoming request to server. (get, post, put, homepage,/dogs,/cats....all of them)
+  * Bonus : `nodemon` tool to restart server automatically whenever change in code during development phanse 
   
- 
+  ## EJS (Embedded JavaScript templates) ## 
+  * 
 
 
 # MongoDb #
