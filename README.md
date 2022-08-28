@@ -43,10 +43,17 @@ xcode-select --install
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
 * Execute .js file from node (`node <filenName.js>`) from correct path
 * NPM is included with Node. js installation
+
   ## npm (Node Package Manager) ##
   * Packages should be install project wise in project folder only
-  * `npm init` to create Package.json (all packages records will be saved in this file, normally in project root directory) 
+  * `npm init` to create package.json (all packages records will be saved in this file, path should be normally in project root directory) 
+  * `npm i or npm install` will automatically look for `package.json` and it will install all packages listed in package.json file. 
   * install package (`npm i <package-name> `)
+
+  ## Express (Framework for Node.js) ##
+  * `npm i express` install express 
+  * require (`const express = require("express")`) and execute (`const app = express()`)
+  
  
 
 
