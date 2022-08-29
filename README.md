@@ -58,7 +58,9 @@ xcode-select --install
   * Bonus : `nodemon` tool to restart server automatically whenever change in code during development phanse 
   
   ## EJS (Embedded JavaScript templates) ## 
-  * 
+  * `npm i ejs` install ejs 
+  * to use ejs `app.set('view engine', 'ejs')`
+  * if we set express to use "view engine", express will assume by default to look for ejs templates in "/views" folder.
 
 
 # MongoDb #
