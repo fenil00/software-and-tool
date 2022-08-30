@@ -65,6 +65,7 @@ xcode-select --install
 
   ### Serving Static Assets in Express ###
   * `app.use(express.static(path.join(__dirname,'public')))`
+  * Then reference file name of the `public` directory in template to use 
   
 # MongoDb #
 
