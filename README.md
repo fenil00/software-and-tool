@@ -63,7 +63,9 @@ xcode-select --install
   * if we set express to use "view engine", express will assume by default to look for ejs templates in "/views" folder. (this will only work if your are running your application from the same folder otherwise express will not be able to find the "/view" that is why the next point,)
   * require path from express `const path = require('path');` then combine path with current working directory `app.set('views', path.join(__dirname,'/views'));`
 
-
+  ### Serving Static Assets in Express ###
+  * `app.use(express.static(path.join(__dirname,'public')))`
+  
 # MongoDb #
 
 
