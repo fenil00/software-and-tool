@@ -67,6 +67,11 @@ xcode-select --install
   * `app.use(express.static(path.join(__dirname,'public')))`
   * Then reference file name of the `public` directory in template to use 
   
+  ### Parsing the Request Body
+  * `app.use(express.json())` // for parsing application/json
+  * `app.use(express.urlencoded({ extended: true }))` // for parsing application/x-www-form-urlencoded
+  * now we have access to `req.body`
+  
 # MongoDb #
 
 
