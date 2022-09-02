@@ -1,0 +1,23 @@
+{
+  "name": "software-and-tool",
+  "version": "1.0.0",
+  "description": "> List of my Softwares and Tools as well commands, How to install, update and upgrade them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenil00/software-and-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenil00/software-and-tool/issues"
+  },
+  "homepage": "https://github.com/fenil00/software-and-tool#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

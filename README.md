@@ -1,5 +1,6 @@
 # software-and-tool
-> List of my Softwares and Tools as well commands, How to install, update and upgrade them 
+> List of my Softwares and Tools as well commands, How to install, update and upgrade them
+> It is also Node.js webapp starter template 
 
 # MacBook Air with M1 #
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
@@ -40,6 +41,7 @@ xcode-select --install
 * Update all the packages installed by Homebrew (`brew upgrade`)
 
 # Node.js #
+* Download Node.js from https://nodejs.org/en/ here and install it. 
 * Start node REPL (Read, Evaluate, Print, Loop) in ZSH  (`node`)
 * Execute .js file from node (`node <filenName.js>`) from correct path
 * NPM is included with Node. js installation
