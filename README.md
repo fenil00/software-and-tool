@@ -73,7 +73,9 @@ xcode-select --install
   * `app.use(express.json())` // for parsing application/json
   * `app.use(express.urlencoded({ extended: true }))` // for parsing application/x-www-form-urlencoded
   * now we have access to `req.body`
-  
+  * Sometimes "PUT, PATCH or DELETE" method is not supported by form, theere `method-override` package comes to rescue. 
+  * `const methodOverride = require('method-override')` and `app.use(methodOverride('_method')))` 
+
 # MongoDb #
 
 
