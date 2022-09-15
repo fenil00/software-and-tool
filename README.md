@@ -83,7 +83,6 @@ xcode-select --install
   * Start MongoDb service : `brew services start mongodb-community@6.0` <br>
     <img width="748" alt="image" src="https://user-images.githubusercontent.com/67994954/190476125-6b886f82-f817-449c-93c8-3dbcc70039d9.png">
     <br>
-    <br>
   * Check Homebrew Service `brew services list`<br>
     <img width="756" alt="Screenshot 2022-09-15 at 20 03 40" src="https://user-images.githubusercontent.com/67994954/190477482-3b217cb4-4623-4f11-b049-69d4458518c5.png"> <br>
    -> So My Service has this Error. Now, I am going to stop the Service and Restart with Sudo 
