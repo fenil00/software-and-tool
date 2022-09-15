@@ -80,3 +80,5 @@ xcode-select --install
   * Installation Guide :- https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
   * Required Software : Xcode, Homebrew
   * Install : `brew install mongodb-community@6.0`
+  * Start MongoDb service :
+    <img width="748" alt="image" src="https://user-images.githubusercontent.com/67994954/190476125-6b886f82-f817-449c-93c8-3dbcc70039d9.png">
