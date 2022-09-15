@@ -77,5 +77,6 @@ xcode-select --install
   * `const methodOverride = require('method-override')` and `app.use(methodOverride('_method')))` 
 
 # MongoDb #
-
-
+  * Installation Guide :- https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+  * Required Software : Xcode, Homebrew
+  * Install : `brew install mongodb-community@6.0`
