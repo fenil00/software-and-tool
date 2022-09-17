@@ -104,7 +104,6 @@ xcode-select --install
            dbPath: /Users/fenildesai/Desktop/mongodb/data/db #/opt/homebrew/var/mongodb
         net:
             bindIp: 127.0.0.1
-            port: 27017
-        ```
+            port: 27017```
     * `brew services restart -vvv mongodb-community@6.0` <br>
     
