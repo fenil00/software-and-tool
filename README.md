@@ -94,7 +94,9 @@ xcode-select --install
       * Error on command `brew services list`
        <img width="740" alt="Screenshot 2022-09-17 at 10 16 17" src="https://user-images.githubusercontent.com/67994954/190847426-a2081e74-8e65-43c5-b9e6-77e347921fc9.png">
        <br>
-      * Configure `mongod.conf` file at `/opt/homebrew/etc/mongod.conf` <br>
+      * delete `mongo.log` from `/opt/homebrew/var/log/mongodb/mongo.log` since it is under root folder
+      * delete `mongodb` from `/opt/homebrew/var/mongodb` since it is under root folder
+      * Now Configure your own paths in `mongod.conf` file at `/opt/homebrew/etc/mongod.conf` <br>
 ```
         systemLog:
           destination: file
@@ -107,5 +109,6 @@ xcode-select --install
             port: 27017
 `````
  <br>
-    * `brew services restart -vvv mongodb-community@6.0` <br>
+      * After above steps your mongodb service should start. 
+      * If network related error then run -> `brew services restart -vvv mongodb-community@6.0` <br>
     
