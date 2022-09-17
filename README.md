@@ -97,18 +97,18 @@ xcode-select --install
       * delete `mongo.log` from `/opt/homebrew/var/log/mongodb/mongo.log` since it is under root folder
       * delete `mongodb` from `/opt/homebrew/var/mongodb` since it is under root folder
       * Now Configure your own paths in `mongod.conf` file at `/opt/homebrew/etc/mongod.conf`
-```
-systemLog:
-          destination: file
-          path: /Users/fenildesai/Desktop/mongodb/mongo.log #/opt/homebrew/var/log/mongodb/mongo.log
-          logAppend: true
-        storage:
-           dbPath: /Users/fenildesai/Desktop/mongodb/data/db #/opt/homebrew/var/mongodb
-        net:
-            bindIp: 127.0.0.1
-            port: 27017
-```
-   * After above steps your mongodb service should start. 
-   * If network related error then run -> `brew services restart -vvv mongodb-community@6.0`
-      <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png">
+          ```
+          systemLog:
+                    destination: file
+                    path: /Users/fenildesai/Desktop/mongodb/mongo.log #/opt/homebrew/var/log/mongodb/mongo.log
+                    logAppend: true
+                  storage:
+                     dbPath: /Users/fenildesai/Desktop/mongodb/data/db #/opt/homebrew/var/mongodb
+                  net:
+                      bindIp: 127.0.0.1
+                      port: 27017
+          ```
+      * After above steps your mongodb service should start. 
+      * If network related error then run -> `brew services restart -vvv mongodb-community@6.0`
+        <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png">
     
