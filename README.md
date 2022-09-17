@@ -95,16 +95,16 @@ xcode-select --install
        <img width="740" alt="Screenshot 2022-09-17 at 10 16 17" src="https://user-images.githubusercontent.com/67994954/190847426-a2081e74-8e65-43c5-b9e6-77e347921fc9.png">
        <br>
       * Configure `mongod.conf` file at `/opt/homebrew/etc/mongod.conf`
-        ```
-       systemLog:
+       ```
+        systemLog:
           destination: file
           path: /Users/fenildesai/Desktop/mongodb/mongo.log #/opt/homebrew/var/log/mongodb/mongo.log
           logAppend: true
-      storage:
+        storage:
            dbPath: /Users/fenildesai/Desktop/mongodb/data/db #/opt/homebrew/var/mongodb
-      net:
+        net:
             bindIp: 127.0.0.1
             port: 27017
-        ```
+       ```
       * `brew services restart -vvv mongodb-community@6.0` <br>
     
