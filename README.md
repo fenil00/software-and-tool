@@ -108,8 +108,8 @@ xcode-select --install
             bindIp: 127.0.0.1
             port: 27017
 ```
-<br>
+   <br>
       * After above steps your mongodb service should start. 
       * If network related error then run -> `brew services restart -vvv mongodb-community@6.0`
-      <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png"><br>
+      <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png">
     
