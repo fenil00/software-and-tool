@@ -82,7 +82,7 @@ xcode-select --install
   * Install : `brew install mongodb-community@6.0`
   * Never start your mongodb as root 
   * Start MongoDb service : `brew services start mongodb-community@6.0` <br>
-    
+    <img width="625" alt="image" src="https://user-images.githubusercontent.com/67994954/190848291-5dea6eb3-fa08-44cd-8be2-14f343a19b7a.png">
     <br>
   * Check Homebrew Service `brew services list`<br>
     <img width="717" alt="image" src="https://user-images.githubusercontent.com/67994954/190847217-089de628-644e-4976-bd92-7bf10e043db3.png">
