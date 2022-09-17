@@ -114,4 +114,11 @@ xcode-select --install
        
        ## MongoDB Shell (mongosh) ##
        * Now that mongodb service (`mongod` mongodemon process) is running start the `mongosh`
+         <img width="1009" alt="image" src="https://user-images.githubusercontent.com/67994954/190848500-5f695a20-c269-4abd-9ea4-deff12a972da.png">
+       * Shtdown the mongodb service from mongosh
+         <img width="724" alt="image" src="https://user-images.githubusercontent.com/67994954/190848677-2f2536bf-4a2b-4580-ae8c-f5f8364e5b4e.png">
+
+         
+
+
     
