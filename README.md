@@ -92,7 +92,7 @@ xcode-select --install
     <img width="616" alt="Screenshot 2022-09-15 at 20 08 13" src="https://user-images.githubusercontent.com/67994954/190478189-f5dfecc3-7613-4e1c-8f45-f1be645d2d3d.png">
     ## Error while starting mongodb service ##
       * Error on command `brew services list`
-       <img width="740" alt="Screenshot 2022-09-17 at 10 16 17" src="https://user-images.githubusercontent.com/67994954/190847426-a2081e74-8e65-43c5-b9e6-77e347921fc9.png">
+          <img width="740" alt="Screenshot 2022-09-17 at 10 16 17" src="https://user-images.githubusercontent.com/67994954/190847426-a2081e74-8e65-43c5-b9e6-77e347921fc9.png">
        
       * delete `mongo.log` from `/opt/homebrew/var/log/mongodb/mongo.log` since it is under root folder
       * delete `mongodb` from `/opt/homebrew/var/mongodb` since it is under root folder
