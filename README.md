@@ -81,14 +81,14 @@ xcode-select --install
   * Required Software : Xcode, Homebrew
   * Install : `brew install mongodb-community@6.0`
   * Never start your mongodb as root 
-  * Start MongoDb service : `brew services start mongodb-community@6.0` <br>
+  * Start MongoDb service (`mongod` mongodemon process): `brew services start mongodb-community@6.0` <br>
     <img width="625" alt="image" src="https://user-images.githubusercontent.com/67994954/190848291-5dea6eb3-fa08-44cd-8be2-14f343a19b7a.png">
     <br>
   * Check Homebrew Service `brew services list`<br>
     <img width="717" alt="image" src="https://user-images.githubusercontent.com/67994954/190847217-089de628-644e-4976-bd92-7bf10e043db3.png">
     <br>
    -> So My Service has this Error. Now, I am going to stop the Service and Restart with Sudo 
-  * Stop MongoDb Service `brew services stop mongodb-community@6.0` <br>
+  * Stop MongoDb Service (`mongod` mongodemon process) : `brew services stop mongodb-community@6.0` <br>
     <img width="616" alt="Screenshot 2022-09-15 at 20 08 13" src="https://user-images.githubusercontent.com/67994954/190478189-f5dfecc3-7613-4e1c-8f45-f1be645d2d3d.png">
     ## Error while starting mongodb service ##
       * Error on command `brew services list`
@@ -110,5 +110,8 @@ xcode-select --install
           ```
       * After above steps your mongodb service should start. 
       * If network related error then run -> `brew services restart -vvv mongodb-community@6.0`
-        <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png">
+        <img width="775" alt="Screenshot 2022-09-17 at 10 31 24" src="https://user-images.githubusercontent.com/67994954/190847982-807fe24a-ffd8-4e37-ae98-c16f9abc0c8e.png"><br>
+       
+       ## MongoDB Shell (mongosh) ##
+       * Now that mongodb service (`mongod` mongodemon process) is running start the `mongosh`
     
