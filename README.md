@@ -82,12 +82,29 @@ xcode-select --install
   * Install : `brew install mongodb-community@6.0`
   * Never start your mongodb as root 
   * Start MongoDb service : `brew services start mongodb-community@6.0` <br>
-    <img width="717" alt="image" src="https://user-images.githubusercontent.com/67994954/190847217-089de628-644e-4976-bd92-7bf10e043db3.png">
+    
     <br>
   * Check Homebrew Service `brew services list`<br>
-    <img width="756" alt="Screenshot 2022-09-15 at 20 03 40" src="https://user-images.githubusercontent.com/67994954/190477482-3b217cb4-4623-4f11-b049-69d4458518c5.png"> <br>
+    <img width="717" alt="image" src="https://user-images.githubusercontent.com/67994954/190847217-089de628-644e-4976-bd92-7bf10e043db3.png">
+    <br>
    -> So My Service has this Error. Now, I am going to stop the Service and Restart with Sudo 
   * Stop MongoDb Service `brew services stop mongodb-community@6.0` <br>
     <img width="616" alt="Screenshot 2022-09-15 at 20 08 13" src="https://user-images.githubusercontent.com/67994954/190478189-f5dfecc3-7613-4e1c-8f45-f1be645d2d3d.png">
-  * Restart as Sudo : `sudo brew services start mongodb-community` <br>
-    <img width="727" alt="Screenshot 2022-09-15 at 20 10 11" src="https://user-images.githubusercontent.com/67994954/190478560-be670ac1-78d0-4e3c-87ea-49b04c3d15d2.png">
+    ## Error while starting mongodb service ##
+      * Error on command `brew services list`
+       <img width="740" alt="Screenshot 2022-09-17 at 10 16 17" src="https://user-images.githubusercontent.com/67994954/190847426-a2081e74-8e65-43c5-b9e6-77e347921fc9.png">
+       <br>
+      * Configure `mongod.conf` file at `/opt/homebrew/etc/mongod.conf`
+        ```
+       systemLog:
+          destination: file
+          path: /Users/fenildesai/Desktop/mongodb/mongo.log #/opt/homebrew/var/log/mongodb/mongo.log
+          logAppend: true
+      storage:
+           dbPath: /Users/fenildesai/Desktop/mongodb/data/db #/opt/homebrew/var/mongodb
+      net:
+            bindIp: 127.0.0.1
+            port: 27017
+        ```
+      * `brew services restart -vvv mongodb-community@6.0` <br>
+    
