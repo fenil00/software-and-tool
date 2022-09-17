@@ -106,5 +106,10 @@ xcode-select --install
             bindIp: 127.0.0.1
             port: 27017
       ```
+      ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
       * `brew services restart -vvv mongodb-community@6.0` <br>
     
