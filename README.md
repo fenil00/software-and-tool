@@ -119,8 +119,9 @@ xcode-select --install
          <img width="724" alt="image" src="https://user-images.githubusercontent.com/67994954/190848677-2f2536bf-4a2b-4580-ae8c-f5f8364e5b4e.png">
 
        ## Mongoose (ODM = Object Document Mapper)
+       * https://mongoosejs.com/
        * It maps documents coming from a database into usable JavaScript objects. 
        * It provides ways for us to model out our application data and define a schema. It offers easy ways to validate data and build complex queries from the comfort of JS.
-
+       * Install `npm i mongoose`
 
     
