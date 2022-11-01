@@ -21,7 +21,7 @@
 * Find out which shell i am using (`dscl . -read /Users/<username> UserShell`) -> Answer should be (`UserShell: /bin/zsh`)
 * Help (`zsh --help`)
 * use Homebrew to install any Third party software without installer. 
-
+* Open chrome with disable web security `open -na Google\ Chrome --args --disable-web-security --user-data-dir="/tmp/chrome_dev"`
 # Homebrew #
 
 All Commands to be typed in ZSH shell 
