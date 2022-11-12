@@ -4,6 +4,7 @@
 
 
 - [software-and-tool](#software-and-tool)
+  - [MacBook Air with M1](#macm1)
 
 # MacBook Air with M1 #
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
