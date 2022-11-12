@@ -8,7 +8,7 @@
     - [ZSH Terminal](#zsh-terminal)
     - [Homebrew](#homebrew)
   - [Node.js](#nodejs)
-    - [Npm](#npm)
+    - [npm (Node Package Manager)](#npm-node-package-Manager)
 
 # MacBook Air with M1 
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
