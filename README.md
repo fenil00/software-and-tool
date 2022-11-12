@@ -131,8 +131,9 @@
        * Shtdown the mongodb service from mongosh
          <img width="724" alt="image" src="https://user-images.githubusercontent.com/67994954/190848677-2f2536bf-4a2b-4580-ae8c-f5f8364e5b4e.png">
        * Show all dbs -> `show dbs`
-       * Switch to db -> `use "dbname"`
-       * 
+       * Switch to db -> `use <dbname>`
+       * To list all collections -> `show collections`
+       * To view data of collection -> `db.<collectionName>.find()` or `db.<collectionName>.find().pretty()`
 
        ## Mongoose (ODM = Object Document Mapper) ##
        * https://mongoosejs.com/
