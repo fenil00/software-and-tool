@@ -4,10 +4,11 @@
 
 
 - [software-and-tool](#software-and-tool)
-  - [MacBook Air with M1](#macbookairwithm1)
-    - [ZSH Terminal](#zshterminal)
+  - [MacBook Air with M1](#macbook-air-with-m1)
+    - [ZSH Terminal](#zsh-terminal)
+    - [Homebrew](#homebrew)
 
-## MacBook Air with M1 
+# MacBook Air with M1 
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
 * `/usr/local/bin/` -> for use by the system administrator when installing software locally (Node.js etc..)
 * `Applications` -> All the applications installed by installer
@@ -27,7 +28,8 @@
 * Help (`zsh --help`)
 * use Homebrew to install any Third party software without installer. 
 * Open chrome with disable web security `open -na Google\ Chrome --args --disable-web-security --user-data-dir="/tmp/chrome_dev"`
-# Homebrew #
+
+## Homebrew 
 
 All Commands to be typed in ZSH shell 
 
