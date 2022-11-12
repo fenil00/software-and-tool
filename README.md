@@ -9,15 +9,18 @@
     - [Homebrew](#homebrew)
   - [Node.js](#nodejs)
     - [npm (Node Package Manager)](#npm-node-package-Manager)
+    - [Express (Framework for Node.js)](#express-framework-for-nodejs)
+    - [EJS (Embedded JavaScript templates)](#ejs-embedded-javascript-templates)
+  - [MongoDB](#mongodb)
 
-# MacBook Air with M1 
+# MacBook Air with M1 #
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
 * `/usr/local/bin/` -> for use by the system administrator when installing software locally (Node.js etc..)
 * `Applications` -> All the applications installed by installer
 * `cd ~` -> will give you home directory in ZSH
 <img width="626" alt="image" src="https://user-images.githubusercontent.com/67994954/186946378-ff92d889-b891-4b18-9141-5e36dc102f51.png">
 
-  ## ZSH Terminal
+  ## ZSH Terminal ##
 
   * My personalized ZSH, make ".zshrc" file (if does not exists) in home directory then put as following
   > PROMPT="%F{magenta}%n%f%F{yellow}@%m%f %B%F{green}%1~%f%b %F{magenta}$%f "
@@ -30,7 +33,7 @@
   * use Homebrew to install any Third party software without installer. 
   * Open chrome with disable web security `open -na Google\ Chrome --args --disable-web-security --user-data-dir="/tmp/chrome_dev"`
 
-  ## Homebrew 
+  ## Homebrew ##
 
   All Commands to be typed in ZSH shell 
 
