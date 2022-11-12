@@ -13,7 +13,7 @@
     - [EJS (Embedded JavaScript templates)](#ejs-embedded-javascript-templates)
   - [MongoDB](#mongodb)
     - [MongoDB Shell (mongosh)](#mongodb-shell-mongosh)
-    - [Mongoose (ODM = Object Document Mapper)](#mongoose-odm-object-document-mapper)
+    - [Mongoose (ODM = Object Document Mapper)](#mongoose-odm--object-document-mapper)
 
 # MacBook Air with M1 #
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
