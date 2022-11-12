@@ -4,8 +4,8 @@
 
 
 - [software-and-tool](#software-and-tool)
-  - [MacBook Air with M1](#macm1)
-    - [ZSH Terminal](#zsh)
+  - [MacBook Air with M1](#macbook air with m1)
+    - [ZSH Terminal](#zsh terminal)
 
 # MacBook Air with M1 #
 * `/opt` -> the installation of add-on application software packages (Homebrew etc..)
